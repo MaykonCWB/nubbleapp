@@ -27,7 +27,7 @@ O projeto do ainda está em desenvolvimento e as próximas atualizações serão
 Para instalar o Nubble, siga estas etapas:
 1. Copiei o link do projeto que está no Github.
 2. Instale o Git.
-3. No CMD digite `git LinkDoProjetoGithub`.
+3. No CMD digite `git clone LinkDoProjetoGithub`.
 4. Configure a sua máquina de acordo com os requisitos solicitado acima.
 
 ## ☕ Usando o App Nubble
