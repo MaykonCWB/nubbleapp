@@ -9,13 +9,13 @@ export default function App(): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <SafeAreaView style={{ backgroundColor: theme.colors.background, flex: 1, padding: 10 }}>
-        <Text color="carrotSecondary" marginBottom='s16' preset="headingLarge">CoffStack</Text>
+        <Text textAlign='center' color="carrotSecondary" marginBottom='s16' preset="headingLarge">Welcome!</Text>
 
         <Button title='Primary' marginBottom="s12" />
+        <Button disabled title='Disabled' marginBottom="s12" />
         <Button title='Outline' preset='outline' marginBottom="s12" />
-        <Button title='Secondary' preset='secondary' marginBottom="s12" />
-
-        <Button loading title="Loading" />
+        <Button loading title="Loading" marginBottom="s12" />
+        <Button disabled preset="outline" title="lading" marginBottom="s12" />
       </SafeAreaView>
     </ThemeProvider>
   )
