@@ -9,9 +9,12 @@ export default function App(): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <SafeAreaView style={{ backgroundColor: theme.colors.background, flex: 1, padding: 10 }}>
-        <Text preset="headingLarge">CoffStack</Text>
+        <Text color="carrotSecondary" marginBottom='s16' preset="headingLarge">CoffStack</Text>
 
-        <Button title='Entrar' marginBottom="s24" />
+        <Button title='Primary' marginBottom="s12" />
+        <Button title='Outline' preset='outline' marginBottom="s12" />
+        <Button title='Secondary' preset='secondary' marginBottom="s12" />
+
         <Button loading title="Loading" />
       </SafeAreaView>
     </ThemeProvider>
